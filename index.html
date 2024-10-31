@@ -1,62 +1,143 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Travel</title>
     <!-- font setup  -->
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwind and daisy setup -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-            "primary-color": "#FF5400"
-          }
-        }
-      }
-    }
-  </script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "primary-color": "#FF5400",
+            },
+          },
+        },
+      };
+    </script>
 
-<style>
-    .font-mulish{
+    <style>
+      .font-mulish {
         font-family: "Mulish", sans-serif;
-    }
-</style>
-
-</head>
-<body class="container mx-auto font-mulish">
+      }
+    </style>
+  </head>
+  <body class="container mx-auto font-mulish">
     <header>
-        <nav>
-            <div class="navbar">
-                <div class="flex-1">
-                  <a class="btn btn-ghost text-xl"><img src="./Images/Group 40071 (2).png" alt="" srcset="">
-                <h1 class="font-extrabold text-4xl">Hero <Span class="text-primary-color">Travel</Span></h1>
-                </a>
-                </div>
-                <div class="flex-none ">
-                  <ul class="menu menu-horizontal px-1 text-lg">
-                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a >Home</a></li>
-                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Package</a></li>
-                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Testimonial</a></li>
-                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Blog</a></li>
-                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Contact</a></li>
-                    
-                  </ul>
-                </div>
+      <nav class="mt-5">
+        <div class="md:flex bg-base-100">
+          <div class="flex-1">
+            <a class="btn btn-ghost text-xl"
+              ><img src="./Images/Group 40071 (2).png" alt="" srcset="" />
+              <h1 class="font-extrabold text-4xl">
+                Hero <span class="text-primary-color">Travel</span>
+              </h1>
+            </a>
+          </div>
+          <div class="flex-none">
+            <ul class="menu menu-horizontal px-1 text-lg">
+              <li class="hover:bg-primary-color hover:text-white rounded-md">
+                <a>Home</a>
+              </li>
+              <li class="hover:bg-primary-color hover:text-white rounded-md">
+                <a>Package</a>
+              </li>
+              <li class="hover:bg-primary-color hover:text-white rounded-md">
+                <a>Testimonial</a>
+              </li>
+              <li class="hover:bg-primary-color hover:text-white rounded-md">
+                <a>Blog</a>
+              </li>
+              <li class="hover:bg-primary-color hover:text-white rounded-md">
+                <a>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="">
+        <div
+          class="bg-cover bg-no-repeat bg-center space-y-6 rounded-lg"
+          style="background-image: url(./Images/Group13.png)"
+        >
+          <div class="text-center pt-24 md:pt40 space-y-6">
+            <h1 class="text-6xl text-white">Explore Your Travel</h1>
+            <p class="text-base text-white">
+              Dolor sit amet consectetur. Nullam suspendisse vitae ultricies
+              dolor adipiscing. In et odio enim ac quis sapien urna eu
+              phasellus.
+            </p>
+          </div>
+          <div class="md:pb-40">
+            <div
+              class="md:flex md:justify-center text-center space-y-4 md:space-y-0 md:space-x-4 pt-4 relative"
+            >
+              <div class="z-10">
+                <select class="select select-info md:w-full max-w-xs">
+                  <option disabled selected>Select language</option>
+                  <option>English</option>
+                  <option>Japanese</option>
+                  <option>Italian</option>
+                </select>
               </div>
-
-        </nav>
+              <div class="z-10">
+                <select class="select select-info md:w-full max-w-xs">
+                  <option disabled selected>Select language</option>
+                  <option>English</option>
+                  <option>Japanese</option>
+                  <option>Italian</option>
+                </select>
+              </div>
+              <div class="z-10">
+                <select class="select select-info md:w-full max-w-xs">
+                  <option disabled selected>Select language</option>
+                  <option>English</option>
+                  <option>Japanese</option>
+                  <option>Italian</option>
+                </select>
+              </div>
+              <div class="md:bg-stone-50 md:opacity-50 md:absolute  md:w-3/5 md:h-16 md:z-0 md:top-2 rounded-xl">
+                
+              </div>
+              <div class="z-10">
+                <button class="btn px-8 bg-primary-color text-white border-0 hover:bg-orange-400">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                    />
+                  </svg>
+                  Find Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
 
-    </main>
-    <footer>
-
-    </footer>
-</body>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
