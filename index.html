@@ -37,6 +37,7 @@
   </head>
   <body class="container mx-auto font-mulish">
     <header>
+      <!-- nav section -->
       <nav class="mt-5">
         <div class="md:flex bg-base-100">
           <div class="flex-1">
@@ -50,25 +51,26 @@
           <div class="flex-none">
             <ul class="menu menu-horizontal px-1 text-lg">
               <li class="hover:bg-primary-color hover:text-white rounded-md">
-                <a>Home</a>
+                <a class="text-inherit">Home</a>
               </li>
               <li class="hover:bg-primary-color hover:text-white rounded-md">
-                <a>Package</a>
+                <a class="text-inherit">Package</a>
               </li>
               <li class="hover:bg-primary-color hover:text-white rounded-md">
-                <a>Testimonial</a>
+                <a class="text-inherit">Testimonial</a>
               </li>
               <li class="hover:bg-primary-color hover:text-white rounded-md">
-                <a>Blog</a>
+                <a class="text-inherit">Blog</a>
               </li>
               <li class="hover:bg-primary-color hover:text-white rounded-md">
-                <a>Contact</a>
+                <a class="text-inherit">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="">
+      <!-- banner section  -->
+      <div>
         <div
           class="bg-cover bg-no-repeat bg-center space-y-6 rounded-lg"
           style="background-image: url(./Images/Group13.png)"
@@ -87,33 +89,39 @@
             >
               <div class="z-10">
                 <select class="select select-info md:w-full max-w-xs">
-                  <option disabled selected>Select language</option>
-                  <option>English</option>
-                  <option>Japanese</option>
-                  <option>Italian</option>
+                  <option disabled selected class="text-inherit">
+                    Where to go
+                  </option>
+                  <option>Dhaka</option>
+                  <option>Noakhali</option>
+                  <option>Chadpur</option>
                 </select>
               </div>
               <div class="z-10">
                 <select class="select select-info md:w-full max-w-xs">
-                  <option disabled selected>Select language</option>
-                  <option>English</option>
-                  <option>Japanese</option>
-                  <option>Italian</option>
+                  <option disabled selected class="text-inherit">When</option>
+                  <option>Today</option>
+                  <option>Tomorrow</option>
+                  <option>Yesterday</option>
                 </select>
               </div>
               <div class="z-10">
                 <select class="select select-info md:w-full max-w-xs">
-                  <option disabled selected>Select language</option>
-                  <option>English</option>
-                  <option>Japanese</option>
-                  <option>Italian</option>
+                  <option disabled selected class="text-inherit">
+                    Select Type
+                  </option>
+                  <option>Air</option>
+                  <option>Bus</option>
+                  <option>Car</option>
                 </select>
               </div>
-              <div class="md:bg-stone-50 md:opacity-50 md:absolute  md:w-3/5 md:h-16 md:z-0 md:top-2 rounded-xl">
-                
-              </div>
+              <div
+                class="md:bg-stone-50 md:opacity-50 md:absolute md:w-3/5 md:h-16 md:z-0 md:top-2 rounded-xl"
+              ></div>
               <div class="z-10">
-                <button class="btn px-8 bg-primary-color text-white border-0 hover:bg-orange-400">
+                <button
+                  class="btn px-8 bg-primary-color text-white border-0 hover:bg-orange-400"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -137,7 +145,46 @@
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <!-- Popular Tours Section  -->
+      <section class="md:flex flex-row  items-center m-3 md:space-x-14 mt-24">
+        <div class="md:flex-1 space-y-4 md:ml-6">
+          <h1 class="text-4xl font-extrabold">Our Popular Tours</h1>
+          <p class="text-inherit">
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+         <ul>
+            <li class="text-inherit list-disc">
+                Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam
+                odio neque diam. Sociis erat at .
+              </li>
+              <li class="text-inherit list-disc">
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+                porta lacus. Lectus suspendisse nullam.
+              </li>
+              <li class="text-inherit list-disc">
+                Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+                Risus at in.
+              </li>
+         </ul>
+          <p class="text-inherit">
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
+            semper tincidunt.
+          </p>
+          <button
+            class="btn px-8 bg-primary-color text-white border-0 hover:bg-orange-400"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="flex-none">
+          <img class=" md:w-full" src="./Images/Rectangle4.png" alt="" />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
