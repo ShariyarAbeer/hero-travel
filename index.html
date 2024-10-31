@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travel</title>
+    <!-- font setup  -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Tailwind and daisy setup -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            "primary-color": "#FF5400"
+          }
+        }
+      }
+    }
+  </script>
+
+<style>
+    .font-mulish{
+        font-family: "Mulish", sans-serif;
+    }
+</style>
+
 </head>
-<body>
+<body class="container mx-auto font-mulish">
     <header>
         <nav>
+            <div class="navbar">
+                <div class="flex-1">
+                  <a class="btn btn-ghost text-xl"><img src="./Images/Group 40071 (2).png" alt="" srcset="">
+                <h1 class="font-extrabold text-4xl">Hero <Span class="text-primary-color">Travel</Span></h1>
+                </a>
+                </div>
+                <div class="flex-none ">
+                  <ul class="menu menu-horizontal px-1 text-lg">
+                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a >Home</a></li>
+                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Package</a></li>
+                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Testimonial</a></li>
+                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Blog</a></li>
+                    <li class="hover:bg-primary-color hover:text-white rounded-md" ><a>Contact</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
 
         </nav>
     </header>
