@@ -147,7 +147,7 @@
 
     <main>
       <!-- Popular Tours Section  -->
-      <section class="md:flex flex-row items-center m-3 md:space-x-14 mt-24">
+      <section class="md:flex flex-row items-center m-3 md:space-x-14 mt-24 ">
         <div class="md:flex-1 space-y-4 md:ml-6">
           <h1 class="text-4xl font-extrabold">Our Popular Tours</h1>
           <p class="text-inherit">
@@ -155,15 +155,15 @@
             odio sit massa. Sodales dictumst nec nibh pellentesque.
           </p>
           <ul>
-            <li class="text-inherit list-disc">
+            <li class="text-inherit list-disc ml-6">
               Tempus euismod lacus mauris dignissim quis in ultrices. Magna
               nullam odio neque diam. Sociis erat at .
             </li>
-            <li class="text-inherit list-disc">
+            <li class="text-inherit list-disc ml-6 ">
               Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
               porta lacus. Lectus suspendisse nullam.
             </li>
-            <li class="text-inherit list-disc">
+            <li class="text-inherit list-disc ml-6">
               Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
               Risus at in.
             </li>
@@ -175,7 +175,7 @@
             semper tincidunt.
           </p>
           <button
-            class="btn px-8 bg-primary-color text-white border-0 hover:bg-orange-400"
+            class="btn font-extrabold text-xl px-8 bg-primary-color text-white border-0 hover:bg-orange-400"
           >
             Read More
           </button>
@@ -335,14 +335,14 @@
         </div>
       </section>
       <!-- Deals & Discounts section  -->
-       <section>
+       <section class="hidden md:block">
         <div class="text-center space-y-5 mt-12 mb-8">
           <h1 class="text-4xl font-extrabold">Deals & Discounts</h1>
           <p class="text-zinc-500">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br>Sodales dictumst nec nibh pellentesque.</p>
         </div>
         <div class="flex justify-center">
 
-          <div class="md:indicator my-4">
+          <div class="indicator my-4">
 
             <span class="indicator-item indicator-center indicator-middle ">
               <div
@@ -387,7 +387,7 @@
         </div>
         <div class="flex justify-center">
 
-          <div class="md:indicator my-4">
+          <div class="indicator my-4">
 
             <span class="indicator-item indicator-center indicator-middle ">
               <div
@@ -433,7 +433,7 @@
         </div>
         <div class="flex justify-center">
 
-          <div class="md:indicator my-4">
+          <div class="indicator mt-4">
 
             <span class="indicator-item indicator-center indicator-middle ">
               <div
@@ -477,10 +477,74 @@
           </div>
         </div>
         
+        <div class="text-center my-20 "><button
+          class="btn px-8 bg-primary-color font-extrabold text-lg text-white border-0 hover:bg-orange-400"
+        >
+        See All Packages
+        </button></div>
         
        </section>
 
+
+
+       <!-- Perfect Place  section  -->
+
+     
+       <section class="md:flex justify-evenly items-center">
+        
+        <div class="md:flex-1 space-y-6 md:ml-8 max-w-xl ">
+          <h1 class="text-4xl font-extrabold">A Simple Perfect Place To Get Lost</h1>
+          <p class="text-inherit">
+            Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. 
+          </p>
+          <ul>
+            <li class="text-inherit list-disc ml-6 mb-3">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li class="text-inherit list-disc ml-6 mb-6">
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.
+            </li>
+            
+          <button
+            class="btn font-extrabold text-xl px-8 bg-primary-color text-white border-0 hover:bg-orange-400"
+          >
+            See More
+          </button>
+        </div>
+        <div><img src="./Images/Group40089.png"></img></div>
+
+       </section>
+
+       <!-- Newsletter section  -->
+
+       <section class="md:flex justify-evenly items-center mt-24">
+        
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl border-2 border-primary-color">
+
+          <form class="card-body">
+            <div class="form-control">
+              <h1 class="font-extrabold text-xl my-2">Newsletter</h1>
+              <p class="my-2">Get your daily dose of travel news & tips. Sign up today!</p>
+            
+              <input type="text" placeholder="Enter Your Name" class="input input-bordered" required />
+            </div>
+            <div class="form-control">
+             
+              <input type="email" placeholder="Enter Your Email" class="input input-bordered" required />
+              
+            </div>
+            <div class="form-control mt-6">
+              <button class="btn text-white bg-primary-color font-extrabold text-xl">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div><img src="./Images/Rectangle81.png"></img></div>
+
+       </section>
+
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
 </html>
